@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 
+tudo em HTML que é id, em CSS vira #.
+tudo em HTML que é class, em CSS é "."
+*/
+
+body {
+    background-color: rgb(255, 0, 0, 0.568);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(202, 121, 55);
+}
+
+h2 {
+    color: #0c0906;
+}
+
+h1#principal {
+    text-align: center;
+    text-decoration: underline;
+    color: #612C00;
+}
+
+.basico {
+    color: #DE0004;
+    font-style: italic;
+}
+
+.intermediario {
+    color: #ffd900ee;
+    font-style: italic;
+}
+
+.avancado {
+    color: #000000d2;
+    font-style: italic;
+}
+
+.destaque {
+    background-color: #db2616a2;
+}
